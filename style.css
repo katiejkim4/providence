@@ -1,8 +1,69 @@
 @font-face {
-    font-family:"helveticaneue";
-    src: url("fonts/HelveticaNeueRoman.otf");
+    font-family:"inter";
+    src: url("fonts/Inter_Light.ttf");
+}
+    
+body{
+    font-family:"inter";
+
+    padding: 160px;
+    padding-top: 100px;
+
+    background-color: #fcfcfc;
+
 }
 
-body{
-    font-family:"helveticaneue";
+h1,h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 14px;
+}
+
+span {
+  font-size: 14px;
+}
+
+#heading {
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+            justify-content: space-between;
+}
+
+#parent > div{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 2fr 2fr 2fr .8fr;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: .8px solid grey;
+    
+}
+
+.place > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.place img {
+    width: 100%;
+}
+
+a {
+    color:black
+}
+
+a:hover { 
+    color: hotpink;
+}
+
+.gif {
+  filter: grayscale(100%);
+}
+
+.gif:hover {
+  filter: grayscale(0%);
 }
