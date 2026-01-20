@@ -6,24 +6,28 @@
 body{
     font-family:"inter";
 
-    padding: 160px;
+    padding: 180px;
     padding-top: 100px;
 
-    background-color: #fcfcfc;
+    background-color: rgb(244, 244, 244);
 
 }
 
 h1,h2{
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-p{
+p {
     font-size: 14px;
+    font-weight: 300;
+
 }
 
 span {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300;
+
 }
 
 #heading {
@@ -36,7 +40,7 @@ span {
 #parent > div{
     display: grid;
     gap: 100px;
-    grid-template-columns: 2fr 2fr 2fr .8fr;
+    grid-template-columns: 2fr 2fr 2fr .75fr;
     padding-bottom: 25px;
     padding-top: 25px;
     border-bottom: .8px solid grey;
@@ -56,14 +60,10 @@ a {
     color:black
 }
 
-a:hover { 
-    color: hotpink;
+a:hover {
+  background-color: rgb(208, 237, 255);
 }
 
-.gif {
-  filter: grayscale(100%);
-}
-
-.gif:hover {
-  filter: grayscale(0%);
+img {
+  border-radius: 10px;
 }
