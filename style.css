@@ -9,7 +9,7 @@ body{
     padding: 180px;
     padding-top: 100px;
 
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(244, 248, 230);
 
 }
 
@@ -45,7 +45,7 @@ span {
     padding-bottom: 25px;
     padding-top: 25px;
     border-bottom: .8px solid rgb(0, 0, 0);
-    
+    s
 }
 
 .place > div {
