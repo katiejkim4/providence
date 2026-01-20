@@ -53,21 +53,6 @@ span {
     flex-direction: column;
 }
 
-#guide > div{
-    display: grid;
-    gap: 100px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    border-bottom: .8px solid rgb(0, 0, 0);
-    
-}
-
-.thing > div {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .place img {
     width: 100%;
@@ -78,7 +63,7 @@ a {
 }
 
 a:hover {
-  background-color: rgb(219, 241, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 img {
